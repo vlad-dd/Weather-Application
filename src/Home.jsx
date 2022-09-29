@@ -13,7 +13,7 @@ const setInput = (e) => {
     setInputParam(e.currentTarget.value)
 }
 
-const [setQuery, {loading,data, error}] = useLazyQuery(GET_WEATHER_QUERY)
+const [setQuery, { loading,data }] = useLazyQuery(GET_WEATHER_QUERY)
 
   return (
     <div>
